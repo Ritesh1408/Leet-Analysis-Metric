@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetMetric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- heading
+    user
+    stats -->
+
+    <div class="container">
+
+        <h1>LeetMetric</h1>
+
+        <div class="user-container">
+            <p>Enter Your username below:</p>
+            <div class="user-input-container">
+                <input type="text" id="username" placeholder="Enter your Username">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <!-- Fixed spelling for the class -->
+        <div class="stats-container">
+            <div class="progress">
+
+                <div class="progress-item">
+                    <!-- Properly closed div tag for .circle -->
+                    <div class="easy-progress circle">
+                        <span id="easy-label" class="circle-span"></span>
+                        
+                        <p>Easy</p>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="medium-progress circle">
+                        <span id="medium-label" class="circle-span"></span>
+                        
+                        <p>Medium</p>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="hard-progress circle">
+                        <span id="hard-label" class="circle-span"></span>
+                    
+                        <p>Hard</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="stats-card">
+                <!-- directly populate through JS code -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
